@@ -18,8 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let background = UIImage(named: "Ed_g2s_background.jpg")
+        self.view.backgroundColor = UIColor(patternImage:background)
         self.city.text = "Taipei"
-        
+        self.icon.image = UIImage(named: "weezle_medium_rain")
     }
 
     override func didReceiveMemoryWarning() {

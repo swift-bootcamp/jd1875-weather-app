@@ -14,6 +14,7 @@
 		84C2CF9D199F2D6B00C29DDC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C2CF9C199F2D6B00C29DDC /* Images.xcassets */; };
 		84C2CFA9199F2D6B00C29DDC /* WeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C2CFA8199F2D6B00C29DDC /* WeatherAppTests.swift */; };
 		84C2CFB3199F30D500C29DDC /* weezle_medium_rain.png in Resources */ = {isa = PBXBuildFile; fileRef = 84C2CFB2199F30D500C29DDC /* weezle_medium_rain.png */; };
+		84C2CFB5199F361B00C29DDC /* Ed_g2s_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84C2CFB4199F361B00C29DDC /* Ed_g2s_background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		84C2CFA7199F2D6B00C29DDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84C2CFA8199F2D6B00C29DDC /* WeatherAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherAppTests.swift; sourceTree = "<group>"; };
 		84C2CFB2199F30D500C29DDC /* weezle_medium_rain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weezle_medium_rain.png; sourceTree = "<group>"; };
+		84C2CFB4199F361B00C29DDC /* Ed_g2s_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Ed_g2s_background.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 				84C2CFB2199F30D500C29DDC /* weezle_medium_rain.png */,
 				84C2CF92199F2D6B00C29DDC /* AppDelegate.swift */,
 				84C2CF97199F2D6B00C29DDC /* ViewController.swift */,
+				84C2CFB4199F361B00C29DDC /* Ed_g2s_background.jpg */,
 				84C2CF99199F2D6B00C29DDC /* Main.storyboard */,
 				84C2CF9C199F2D6B00C29DDC /* Images.xcassets */,
 				84C2CF94199F2D6B00C29DDC /* WeatherApp.xcdatamodeld */,
@@ -198,6 +201,7 @@
 				84C2CFB3199F30D500C29DDC /* weezle_medium_rain.png in Resources */,
 				84C2CF9B199F2D6B00C29DDC /* Main.storyboard in Resources */,
 				84C2CF9D199F2D6B00C29DDC /* Images.xcassets in Resources */,
+				84C2CFB5199F361B00C29DDC /* Ed_g2s_background.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
