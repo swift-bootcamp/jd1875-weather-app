@@ -14,6 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet var city: UILabel!
     
     @IBOutlet weak var icon: UIImageView!
+    var data: NSMutableData = NSMutableData()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,6 +28,17 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    
+    
+    func connection(connection: NSURLConnection!, didReceiveData dataReceived: NSData!){
+        println("downloading")
+        self.data.appendData(dataReceived)
+    }
+    
+    func connectionDidFinishLoading(connection: NSURLConnection!){
+        println("Downloading finished")
     }
 
 
